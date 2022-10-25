@@ -17,10 +17,9 @@ namespace MethodOverloading
             //var answer = Add(2, 2);
             //Console.WriteLine(answer);
             var answer = Add(3, 5, true);
-            {
-
-                Console.WriteLine(answer);
-            }
+            Console.WriteLine(answer);  
+            
+            
 
         }
         public static int Add(int x, int y)
@@ -46,7 +45,7 @@ namespace MethodOverloading
             }
             else
             {
-                return $"{x = y}";
+                return $"{x + y}";
             }
 
 
